@@ -1,40 +1,19 @@
-/**
- * Adds two numbers together.
- * @param {number} a – first operand.
- * @param {number} b – second operand.
- * @returns {number} The sum of `a` and `b`.
- */
+// Adds two numbers together (a + b).
 function addNumbers(a, b) {
   return a + b;
 }
 
-/**
- * Subtracts the second number from the first.
- * @param {number} a – minuend.
- * @param {number} b – subtrahend.
- * @returns {number} The result of a - b.
- */
+// Subtracts the second number from the first (a - b).
 function subtractNumbers(a, b) {
   return a - b;
 }
 
-/**
- * Multiplies two numbers.
- * @param {number} a – first factor.
- * @param {number} b – second factor.
- * @returns {number} The product a * b.
- */
+// Multiplies two numbers (a * b).
 function multiplyNumbers(a, b) {
   return a * b;
 }
 
-/**
- * Divides a by b.
- * @param {number} a – dividend.
- * @param {number} b – divisor.
- * @returns {number} The quotient a / b.
- * @throws {Error} When b is zero.
- */
+// Divides a by b (a / b). Throws an error if divisor is zero.
 function divideNumbers(a, b) {
   if (b === 0) {
     throw new Error('Division by zero');

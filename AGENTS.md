@@ -105,19 +105,7 @@ These rules complement ESLint and Prettier. They are **mandatory** for any agent
 
 ### Types & JSDoc
 
-Even though the project is plain JavaScript, we add **JSDoc** comments to describe public APIs. Example:
-
-```js
-/**
- * Adds two numbers together.
- * @param {number} a – first operand.
- * @param {number} b – second operand.
- * @returns {number} The sum of `a` and `b`.
- */
-export function add(a, b) {
-  return a + b;
-}
-```
+We do **not** use JSDoc comments in this project. Instead, write simple, human‑friendly line comments (e.g. `// Adds two numbers together`). Keep code clear and self‑explanatory; detailed documentation is unnecessary for beginners.
 
 ### Error Handling
 
@@ -129,7 +117,7 @@ export function add(a, b) {
 ### Comments & Documentation
 
 - Add **inline comments** only when the code is not self‑explanatory.
-- Use **block JSDoc comments** for exported functions/classes.
+- Use simple line comments for exported functions/classes; avoid block JSDoc.
 - Keep comment width ≤ 80 characters and update comments whenever related code changes.
 
 ### File Organization
