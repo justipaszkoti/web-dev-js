@@ -15,5 +15,3 @@ if (typeof module !== 'undefined' && module.exports) {
   // In the browser, attach to window so it can be used manually.
   window.addNumbers = addNumbers;
 }
-
-console.log('hello world');
