@@ -16,5 +16,4 @@ if (typeof module !== 'undefined' && module.exports) {
   window.addNumbers = addNumbers;
 }
 
-// NOTE: This file has been moved to scripts/script.js. It is kept for reference only.
-// console.log('hello world');
+console.log('hello world');
